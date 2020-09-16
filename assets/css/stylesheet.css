@@ -115,6 +115,7 @@ ul{
 .page-title-area .page-title{
     color: var(--page-title);
     position: relative;
+    margin-left: 15px;
 }
 .page-title-area .page-title::before{
     content: "";
