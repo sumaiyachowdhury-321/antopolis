@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Antopolis</title>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div class="container-fluid wrapper">
+        <div class="row">
+
+            <!-- Header -->
+            <header class="container header-area">
+                <div class="row justify-content-between">
+                    <div class="col-md-2">
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.png"alt="Antopolis">
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="social d-flex">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- Header end-->
+
+            <!-- Menu -->
+            <div class="container-fluid menu-area">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <ul class="main-menu d-flex">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Campeign</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Store</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <ul class="menu-aside h-100 d-flex align-items-center">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            <span>2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu end-->
+
+             <!-- breadcrumb -->
+            <div class="container breadcrumb-area">
+            	<div class="row">
+				    <div class="container">
+				        <div class="row">
+				            <div class="col-md-12">
+				                <nav aria-label="breadcrumb">
+				                    <ol class="breadcrumb">
+				                        <li class="breadcrumb-item">Store</li>
+				                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+				                    </ol>
+				                </nav>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+			<!-- breadcrumb end -->
+
+			<!-- cart-area -->
+		    <div class="container cart-area">
+		  	    <div class="row">
+		            <div class="container">
+					    <div class="row">
+					        <div class="col-md-8">
+					            <h1>Our Shopping Cart</h1>
+					            <table class="table table-striped">
+						            <thead>
+							            <tr>
+							                <th>PRODUCT</th>
+							                <th></th>
+							                <th>PRICE</th>
+							                <th>QTY</th>
+							                <th>TOTAL</th>
+							            </tr>
+						            </thead>
+						            <tbody>
+							            <tr>
+							                <td>
+							                	<i class="fas fa-times"></i><img src="assets/images/img-1.png" alt="">
+							                </td>
+
+							                <td>
+							                	Design and Typography by G. Williams
+							                </td>
+
+							                <td class="bold">
+							                	$40.99
+							                </td>
+
+							                <td>
+							                	<div class="input-group inline-group">
+							                		<div class="input-group-prepend">
+							                			<button class="btn btn-outline-secondary btn-minus">
+							                				<i class="fas fa-minus"></i>
+							                			</button>
+							                		</div>
+							                		<input class="form-control quantity" min="0" name="quantity" value="1" type="number">
+							                		<div class="input-group-append">
+							                			<div class="btn btn-outline-secondary btn-plus">
+							                				<i class="fas fa-plus"></i>
+							                			</div>
+							                		</div>
+							                	</div>
+							               </td>
+
+							                <td class="bold">
+							                	<span class="total">$40.99</span>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td>
+							                	<i class="fas fa-times"></i><img src="assets/images/img-1.png" alt="">
+							                </td>
+
+							                <td>
+							                	<br><br>Design and Typography by G. Williams
+							                </td>
+
+							                <td class="bold">
+							                	<br><br>$40.99
+							                </td>
+
+							                <td>
+							                	<br><br>
+							               </td>
+							               
+							                <td class="bold">
+							                	<br><br>$40.99
+							                </td>
+							            </tr>
+						            </tbody>
+					            </table>
+					        </div>
+					        <div class="col-md-4">
+					            <div class="field">
+					                <div class="side-bar">
+					                    <div class="text">
+					                        <h5>CUPONE CODE</h5>
+					                    </div>
+					                    <input type="number" placeholder="CUPONE CODE">
+					                </div>  
+					                <div class="side-bar-other">
+					                    <div class="text">
+					                        <h5>CALCULATE SHIPPING</h5>
+					                    </div>  
+					                    <input type="text" placeholder="COUNTRY">   
+					                </div> 
+						            <div class="input">
+						              <input type="text" placeholder="CITY"> 
+						              <input type="number" placeholder="POST CODE"> 
+						            </div>
+					            </div>        
+					        </div>  
+					    </div>
+					</div>
+			    </div>
+			</div>
+			<!-- cart-area end -->
+            
+            <!-- border-area -->
+		    <div class="container border-area">
+			    <div class="row">
+				    <div class="col-md-12">
+				        <div class="border"></div>
+				    </div>
+			    </div>
+		    </div>
+		    <!-- border-area end -->
+
+		    <!-- catagories-area -->
+		    <div class="container catagories-area">
+		    	<div class="row">
+		    		<div class="col-md-8">
+		    			<div class="reading-btn">
+		    				<button class="button1">Continue reading</button>
+		    			</div>
+		    		</div>
+		    		<div class="col-md-4">
+		    			<div class="categories">
+                            <h5 class="title w-100">
+                                Update Cart
+                            </h5>
+
+                            <ul class="category-items">
+                                <li class="d-flex justify-content-between single-category active">
+                                    <a href="#">Subtotal </a>
+                                    <span><b>$121.99</b></span>
+                                </li>
+                                <li class="d-flex justify-content-between single-category active">
+                                    <a href="#">Shipping</a>
+                                    <span><b>$5</b></span>
+                                </li>
+                                <li>
+                                	<hr>	
+                                </li>
+                                <li class="d-flex justify-content-between single-category active">
+                                    <a href="#"><b>TOTAL</b></a>
+                                    <span><b>$126.99</b></span>
+                                </li>
+                            </ul>
+                            <button class="button">Process to Checkout</button>
+                        </div>
+		    		</div>
+		    	</div>
+		    	
+		    </div>
+		    <!-- catagories-area end -->
+
+            <!-- footer -->
+            <footer class="container-fluid footer">
+                <div class="row footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h4 class="footer-title">Get in touch</h4>
+                                <p class="address">
+                                    King Street, Melbourne
+                                    Victoria 3000 Australia
+                                </p>
+                                <p class="phone">
+                                    8 800 595 82 12
+                                </p>
+                                <p class="email">
+                                    mail@email.com
+                                </p>
+                            </div>
+                            <div class="col-md-2">
+                                <h4 class="footer-title">Useful Links</h4>
+                                <ul class="links">
+                                    <li>
+                                        <a href="#">
+                                            Alice
+                                        </a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">
+                                            Wondered
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Companion
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Wondered
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Modesty
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Queen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Satisfaction
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="footer-title">Recent posts</h4>
+                                <ul class="recent">
+                                    <li class="container-fluid m-0 p-0">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="recent-image">
+                                                    <img src="assets/images/product_image.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="recent-desc">
+                                                    <h4 class="title">
+                                                        Looking cautiously round, to ascertain that they
+                                                    </h4>
+                                                    <p class="date">
+                                                        September 28, 2016
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="container-fluid m-0 p-0">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="recent-image">
+                                                    <img src="assets/images/product_image.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="recent-desc">
+                                                    <h4 class="title">
+                                                        Looking cautiously round, to ascertain that they
+                                                    </h4>
+                                                    <p class="date">
+                                                        September 28, 2016
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h4 class="footer-title">Feedback</h4>
+                                <div class="feedback-form">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your name">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea name="" rows="5">&nbsp&nbsp Message</textarea>
+                                        </div>
+                                        <button class="submit-form">
+                                            Submit Form <i class="fas fa-long-arrow-alt-right"></i>
+                                        </button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <ul class="footer-social d-flex mt-4">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>© 2016 — Lenox Multi-Concept Template</p>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <img src="assets/images/footer-copyright.png" alt="Footer Copyright">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer -->
+        </div>
+    </div><!-- /Wrapper -->
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
