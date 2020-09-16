@@ -14,12 +14,12 @@ $('.btn-plus, .btn-minus').on('click', function(e) {
             priceValue -= 1;
         }
 
-        $(this).parent('.input-group-prepend').parent('.input-group').parent('td').parent('tr').children('.total').text(priceValue);
+        $(this).parent('.input-group-prepend').parent('.input-group').parent('td').parent('tr').children('.total').text("$ " + priceValue);
 
     }else{
         priceValue = parseInt($(this).parent('.input-group-append').parent('.input-group').children('.quantity').val());
         priceValue += 1;
-        $(this).parent('.input-group-append').parent('.input-group').parent('td').parent('tr').children('.total').text(priceValue);
+        $(this).parent('.input-group-append').parent('.input-group').parent('td').parent('tr').children('.total').text("$ "+ priceValue);
     }
 
 
